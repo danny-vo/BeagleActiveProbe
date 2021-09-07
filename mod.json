@@ -1,0 +1,19 @@
+{
+	"Name": "BeagleActiveProbe",
+	"Enabled": true,
+    "Version": "1.0.0",
+    "Description": "Implements the Beagle Active Probe",
+	"Author": "danny-vo",
+
+    "Manifest": [
+        {
+            "Type": "ItemCollectionDef",
+            "Path": "itemCollections/",
+            "ShouldAppendText": true
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "upgrades/"
+        }
+    ]
+}
